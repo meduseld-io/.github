@@ -27,8 +27,8 @@ It's all browser-based, so anyone in the group can manage the server from their 
 
 1. Go to https://meduseld.io
 2. Click through to the service menu
-3. Pick what you need (Game Panel, SSH Terminal, Jellyfin, etc.)
-4. Log in with Discord
+3. Log in with Discord
+4. Pick what you need (Game Panel, SSH Terminal, Jellyfin, etc.)
 5. Do your thing
 
 If you can't get in, bug whoever's managing the Cloudflare Access list to add your Discord account.
