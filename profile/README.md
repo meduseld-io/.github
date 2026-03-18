@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a992766f-24d7-4271-88b4-62333265a1bf" alt="Meduseld" width="250">
+  <img src="https://github.com/user-attachments/assets/70fa6367-afd1-4d40-b923-ede9fe351957" alt="Meduseld" width="250">
 </p>
 
 # Meduseld
