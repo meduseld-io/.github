@@ -92,7 +92,6 @@ Movies and TV shows from your Letterboxd watchlist are automatically added to yo
 
 **Tech**: Python, Flask, Cloudscraper, Docker · **License**: MIT
 
-
 ## Internal Projects
 
 The rest of our repos are private tools we use to manage a dedicated game server, media streaming, and system monitoring for our friend group.
@@ -103,3 +102,6 @@ The rest of our repos are private tools we use to manage a dedicated game server
 ## Contributors
 
 [@quietarcade](https://github.com/quietarcade) · [@Hier0g1yphiK](https://github.com/Hier0g1yphiK) · [@glenwinters859](https://github.com/glenwinters859) · [@ThomasDrennan](https://github.com/ThomasDrennan)
+
+## Contact 
+For questions, issues, or collaboration inquiries, reach out at [admin@meduseld.io](mailto:admin@meduseld.io).
