@@ -6,7 +6,7 @@ We're a group of friends building software for server management, media streamin
 
 ## Public Projects
 
-### [Herugrim](https://github.com/meduseld-io/herugrim) <img src="https://github.com/user-attachments/assets/a992766f-24d7-4271-88b4-62333265a1bf" alt="Herugrim" width="28" align="top">
+### [Herugrim](https://github.com/meduseld-io/herugrim) <img src="https://github.com/user-attachments/assets/a992766f-24d7-4271-88b4-62333265a1bf" alt="Herugrim" height="28" align="top">
 
 A Cloudflare Worker that lets you authenticate with Cloudflare Access using Discord. It wraps OIDC around Discord's OAuth2 API so Cloudflare Access can use Discord as an identity provider - no separate identity service needed.
 
@@ -26,7 +26,26 @@ If you're using Cloudflare Access and want Discord login, this is what you need.
 
 **Tech**: Cloudflare Workers, Hono, Jose · **License**: MIT
 
-### [FellowSync](https://github.com/meduseld-io/fellowsync) <img src="https://github.com/user-attachments/assets/19b8237d-3e5e-47cb-98b6-063807a54262" alt="FellowSync" width="28" align="top"> *(Alpha)*
+### [Argonath](https://github.com/meduseld-io/argonath) <img src="https://github.com/user-attachments/assets/2c5dab06-d116-47d8-bb2e-fa54396dd4b1" alt="Argonath" height="28" align="top">
+
+A lightweight, single-game dedicated server panel packaged as a Docker image. One config file, one container, full control over your game server.
+
+- **One-click control** - start, stop, restart, and force-kill the game server from a web panel
+- **Live monitoring** - real-time CPU, RAM, disk, and temperature stats with Chart.js history graphs
+- **Log viewer** - game server logs and startup script logs with color-coded entries and auto-scroll
+- **SteamCMD updates** - automatic update detection and one-click install via SteamCMD
+- **Crash monitoring** - background thread detects unexpected process deaths and reports state
+- **Single config file** - one `config/game.yml` defines everything: game name, Steam app ID, process name, launch script, log paths
+- **Draggable dashboard** - rearrange status cards and widgets to your liking
+- **Auth modes** - local username/password (first user becomes admin) or no auth for trusted networks
+- **Rate limiting** - prevents accidental rapid-fire server actions
+- **Example configs** - ready-made configs for Icarus (Wine/Proton), Valheim, and Satisfactory
+
+Check the repo [README](https://github.com/meduseld-io/argonath#readme) for setup instructions and Docker Compose examples.
+
+**Tech**: Flask, SQLite, Docker, SteamCMD · **License**: MIT
+
+### [FellowSync](https://github.com/meduseld-io/fellowsync) <img src="https://github.com/user-attachments/assets/19b8237d-3e5e-47cb-98b6-063807a54262" alt="FellowSync" height="28" align="top"> *(Alpha)*
 
 A self-hosted Spotify listening party app. Create a room, share a code, and listen to music together in sync - everyone queues tracks, the host controls playback, and FellowSync keeps all listeners on the same song at the same position via the Spotify Web API.
 
@@ -45,7 +64,7 @@ All listeners need Spotify Premium. Check the repo [README](https://github.com/m
 
 **Tech**: Flask, React, Redis, Spotify Web API · **License**: AGPL-3.0
 
-### [ExSpire](https://github.com/meduseld-io/exspire) <img src="https://github.com/user-attachments/assets/0f597755-d2a1-418d-bffa-b9e0ea4957ad" alt="ExSpire" width="28" align="top"> *(Alpha)*
+### [ExSpire](https://github.com/meduseld-io/exspire) <img src="https://github.com/user-attachments/assets/0f597755-d2a1-418d-bffa-b9e0ea4957ad" alt="ExSpire" height="28" align="top"> *(Alpha)*
 
 A self-hosted expiry tracker. Add subscriptions, documents, warranties, memberships, and anything else with a deadline, then get email or push reminders before they lapse.
 
@@ -64,7 +83,23 @@ ExSpire has its own auth system (email/password with JWT) - no external identity
 
 **Tech**: Express, React, SQLite · **License**: Source Available
 
-### [Lembas](https://github.com/meduseld-io/lembas) <img src="https://github.com/user-attachments/assets/93bfeb12-4fd2-4350-9c6f-575bfe5adf69" alt="Lembas" width="28" align="top"> *(Alpha)*
+### [Bree](https://github.com/meduseld-io/bree) <img src="https://raw.githubusercontent.com/meduseld-io/bree/main/logo.png" alt="Bree" height="28" align="top"> *(Alpha)*
+
+An interview preparation hub. Track companies you're applying to, organise prep materials for each stage of the process, and use AI to analyse job specs and technical challenges - all from a single-page app that syncs across devices.
+
+- **Company pipeline** - add companies with role, status, dates, and links. Color-coded cards show your pipeline at a glance (researching, applied, interviewing, offer, rejected, declined)
+- **Interview stages** - define stages per company (screening call, interview, technical challenge, culture fit, feedback). Each stage gets its own tab with dedicated notes
+- **AI analysis (BYOK)** - paste a job spec or technical challenge brief and your resume. AI generates structured prep sections with bullet points, talking points, and questions to ask. Bring your own Anthropic or OpenAI key - it stays in your browser
+- **Technical challenge prep** - dedicated widgets for requirements, architecture, discussion points, approach, future improvements, limitations, and reviewer Q&A
+- **Ask AI chat** - conversational follow-ups with full context of your company, role, prep sections, and resume
+- **Interview notes** - per-company notepad for jotting down notes during live interviews with auto-save
+- **Cross-device sync** - sign in with a Meduseld Account to sync companies, settings, resume, and notes across devices. Works fully offline without an account (localStorage only)
+
+No backend needed - Bree is a static site deployed to Cloudflare Pages. AI calls go directly from your browser to Anthropic/OpenAI. Check the repo [README](https://github.com/meduseld-io/bree#readme) for details.
+
+**Tech**: Vanilla JS, Cloudflare Pages, localStorage · **License**: Source Available
+
+### [Lembas](https://github.com/meduseld-io/lembas) <img src="https://github.com/user-attachments/assets/93bfeb12-4fd2-4350-9c6f-575bfe5adf69" alt="Lembas" height="28" align="top"> *(Alpha)*
 
 A phone-first PWA for to-do lists and shopping lists. Switch between modes with a tap - your data stays separate and persists locally in the browser. No account needed.
 
@@ -78,7 +113,7 @@ A phone-first PWA for to-do lists and shopping lists. Switch between modes with 
 
 **Tech**: React 19, Vite 6, @dnd-kit, localStorage · **License**: MIT
 
-### [Letterboxderr](https://github.com/meduseld-io/letterboxderr) <img src="https://github.com/user-attachments/assets/a114a3f4-0091-46e6-8cc6-b2e890ef930f" alt="Letterboxderr" width="28" align="top"> *(Alpha)*
+### [Letterboxderr](https://github.com/meduseld-io/letterboxderr) <img src="https://github.com/user-attachments/assets/a114a3f4-0091-46e6-8cc6-b2e890ef930f" alt="Letterboxderr" height="28" align="top"> *(Alpha)*
 
 Sync your [Letterboxd](https://letterboxd.com) watchlist to [Seerr](https://github.com/seerr-team/seerr). Also works with [Jellyseerr](https://github.com/Fallenbagel/jellyseerr) and [Overseerr](https://github.com/sct/overseerr).
 
@@ -103,5 +138,6 @@ The rest of our repos are private tools we use to manage a dedicated game server
 
 [@quietarcade](https://github.com/quietarcade) · [@Hier0g1yphiK](https://github.com/Hier0g1yphiK) · [@glenwinters859](https://github.com/glenwinters859) · [@ThomasDrennan](https://github.com/ThomasDrennan)
 
-## Contact 
+## Contact
+
 For questions, issues, or collaboration inquiries, reach out at [admin@meduseld.io](mailto:admin@meduseld.io).
