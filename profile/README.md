@@ -83,22 +83,6 @@ ExSpire has its own auth system (email/password with JWT) - no external identity
 
 **Tech**: Express, React, SQLite · **License**: Source Available
 
-### [Bree](https://github.com/meduseld-io/bree) <img src="https://raw.githubusercontent.com/meduseld-io/bree/main/logo.png" alt="Bree" height="28" align="top"> *(Alpha)*
-
-An interview preparation hub. Track companies you're applying to, organise prep materials for each stage of the process, and use AI to analyse job specs and technical challenges - all from a single-page app that syncs across devices.
-
-- **Company pipeline** - add companies with role, status, dates, and links. Color-coded cards show your pipeline at a glance (researching, applied, interviewing, offer, rejected, declined)
-- **Interview stages** - define stages per company (screening call, interview, technical challenge, culture fit, feedback). Each stage gets its own tab with dedicated notes
-- **AI analysis (BYOK)** - paste a job spec or technical challenge brief and your resume. AI generates structured prep sections with bullet points, talking points, and questions to ask. Bring your own Anthropic or OpenAI key - it stays in your browser
-- **Technical challenge prep** - dedicated widgets for requirements, architecture, discussion points, approach, future improvements, limitations, and reviewer Q&A
-- **Ask AI chat** - conversational follow-ups with full context of your company, role, prep sections, and resume
-- **Interview notes** - per-company notepad for jotting down notes during live interviews with auto-save
-- **Cross-device sync** - sign in with a Meduseld Account to sync companies, settings, resume, and notes across devices. Works fully offline without an account (localStorage only)
-
-No backend needed - Bree is a static site deployed to Cloudflare Pages. AI calls go directly from your browser to Anthropic/OpenAI. Check the repo [README](https://github.com/meduseld-io/bree#readme) for details.
-
-**Tech**: Vanilla JS, Cloudflare Pages, localStorage · **License**: Source Available
-
 ### [Lembas](https://github.com/meduseld-io/lembas) <img src="https://github.com/user-attachments/assets/93bfeb12-4fd2-4350-9c6f-575bfe5adf69" alt="Lembas" height="28" align="top"> *(Alpha)*
 
 A phone-first PWA for to-do lists and shopping lists. Switch between modes with a tap - your data stays separate and persists locally in the browser. No account needed.
